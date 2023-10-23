@@ -152,7 +152,7 @@ font-weight: 500;
         font-size: 15px !important;
     }
     .left img{
-        margin: 160% 20%;
+        margin: 220% 20%;
     }
     .sari{
         width: 170px !important;
@@ -246,7 +246,10 @@ transition: 1s;
         height: auto !important;
     }
     .promoters{
-        height: 130vh !important;
+        height: 160vh !important;
+    }
+    .lion{
+        height: 180vh!important;
     }
   }
 
