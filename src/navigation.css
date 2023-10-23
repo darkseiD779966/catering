@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "MicroFLF";
+  src: url(fonts/MicroFLF.ttf) format("truetype");
+}
+@font-face {
+  font-family: CalligraphyFLF;
+  src: url(fonts/CalligraphyFLF.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Madina';
+  src: url(fonts/Madina.ttf);
+}
+*{
+  margin: 0px ;
+  padding: 0px;
+}
+.navbar{
+  z-index: 200;
+    height: 120px;
+     background: transparent;
+     filter: drop-shadow(4px 4px 8px rgb(8, 8, 104));
+padding-top:0  !important;
+padding-bottom: 0  !important;
+  }
+  /* Override Bootstrap's .container-fluid gutter spacing */
+.container-fluid {
+  bs-gutter-x: 0; /* Set the horizontal gutter spacing to 0 */
+  padding-left: 0 !important;
+  padding-right:0 !important ;
+  /* ... Other styles ... */
+}
+
+
+.navbar.react{
+  position: fixed;
+  top:0% !important;
+  filter:none !important;
+  height: auto;
+padding-top: 0 !important;
+padding-bottom: 0 !important;  
+  width: 100%;
+  z-index: 200;
+  color: #fff ; /* Change this to your desired text color */
+  /* Add more CSS properties as needed */
+background: linear-gradient(180deg,rgb(9, 21, 114),rgb(4, 10, 49));
+  /* Add red borders at the top and bottom */
+  box-sizing: border-box !important;
+  border-top: 15px solid rgb(16, 13, 71); /* Adjust the thickness and color as needed */
+  border-bottom: 15px solid rgb(16, 13, 71); 
+}
+.nav-link{
+  font-family: CalligraphyFLF;
+  font-size: 25px;
+  filter: drop-shadow(.2px .2px .4px black);
+  color:goldenrod !important;
+}
+.nav-link:hover{
+  color: white !important;
+  transition: 0.5s;
+  border: .3px;
+ 
+}
+.brand >img{
+  display:block;
+  margin-top: -7%;
+  filter: drop-shadow(3px 3px 7px goldenrod);
+  width: auto;
+  height: 150%;
+  
+}
+.brand{
+  width: 150px;
+  
+  height: 100px;
+}
+.navbar-nav .nav-link.active {
+  color: var(--bs-navbar-active-color);
+  background-color: white;
+  width: 100%;
+  
+  text-align: center;
+  /* position: absolute; */
+  z-index: 120;
+  position: relative;
+}
+@media screen and (min-width: 992px) {
+  .navbar-nav .nav-link.active {
+    background-color: transparent !important; /* Reset the background color */
+  }
+.navbar-nav{
+  margin-left: 37%;
+}  
+.navbar{
+  height: 120px;
+}
+}

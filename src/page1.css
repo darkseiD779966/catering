@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'CinzelDecorative-Bold';
+  src: url(fonts/CinzelDecorative-Bold.ttf) format("truetype");
+}
+.what >img{
+    width: 30%;
+margin-top: -5%;
+margin-bottom: 3%;
+    filter: drop-shadow(.3px .3px 1px goldenrod);
+}/* Add this CSS to your "page1.css" file */
+.cards {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+margin-right: 0px;
+    position: relative;
+  }
+  
+    .row{
+margin-left: 0!important;
+margin-right: 0  !important;      
+    }
+  
+  .what > h2{
+    color: goldenrod;
+    font-family: 'Cinzel-Regular';
+    font-size:40px;
+    margin: 5%;
+    filter:drop-shadow(.3px .3px 1px rgb(8, 8, 96))
+  }
+  .cards img {
+    width: 350px;
+    height: 230px;
+    
+  
+    
+  }
+  @media screen and (max-width:762px){
+    .last{
+    padding: 10% !important;
+    }
+  }
+  .last{
+    padding: 13%;
+    font-size: 23px;
+    
+    font-family: CalligraphyFLF;
+  }
+  .container{
+    margin:0 !important;
+    padding: 0 !important;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    
+  }
+  .conti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    justify-content: center;
+  }
+  
+  
+  
+  /* Add this CSS to your "page1.css" file */
+.card-content h4 {
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    color: white;
+    position: absolute;
+    font-size: 37px;
+font-weight: 600;
+
+filter: drop-shadow(.5px .5px 1px rgb(3, 3, 72));
+
+    font-family: 'CalligraphyFLF';
+    
+    top: 33.5%;
+    transform: translateY(-50%); /* Vertically center the h4 */
+     /* Ensure the width is 100% within the card */
+    opacity: 0; /* Initially hide the h4 element */
+    transition: opacity 0.3s; /* Smooth transition for opacity */
+  }
+  
+  .card-content:hover h4 {
+    opacity: 1; /* Show the h4 element when hovering over the card-content */
+  }
+  .ott{
+    word-spacing: 2px;
+margin: 1% 4%;
+    letter-spacing: -.4px;
+    line-height: 1;background: rgb(255,238,70);
+    background: linear-gradient(90deg, rgba(255,238,70,1) 0%, rgba(254,236,117,0.6951155462184874) 0%, rgba(242,230,46,0.9808298319327731) 100%);
+    border: 1px solid goldenrod;
+    padding: 1%;
+    margin-top: 20px;
+    color: rgb(14, 14, 110);
+    
+     font-family: 'CalligraphyFLF';
+    
+     font-size: 2vw;
+
+    font-weight: 500;
+  }
+  span{
+    border:2px solid goldenrod;
+    padding:10px;
+    color:goldenrod;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  span:hover{
+    background-color:goldenrod;
+    transition: 0.5s;
+    color: white;
+    
+    
+
+  }
+  .what{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+  }
+  /* Add this CSS to your page1.css file or your CSS stylesheet */
+/* Add this CSS to your page1.css file or your CSS stylesheet */
+
+/* Style the container to position the overlay */
+/* Style the container to position the image *//* Style the container to position the image */
+/* Style the container to position the image */
+.image-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden; /* Clip the background to the image boundaries */
+}
+
+/* Style the image */
+.hover-image {
+  
+  display: block;
+  
+  
+}
+
+/* Create the hover effect */
+.image-container:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 215, 0, 0.5), transparent);
+  z-index: 1; /* Position the gradient overlay above the image */
+}

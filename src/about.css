@@ -1,0 +1,219 @@
+.body{
+    padding: 0% !important;
+    margin: 0% !important;
+}
+.story {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 5% 15.5%;
+    width: 70vw; /* Set a fixed width for the container */
+    height: 20vw; /* Set a fixed height for the container */
+  }
+  
+  .story > img {
+    box-shadow: 1px 1px 3px goldenrod;
+filter: brightness(70%);
+    display: block;
+    width: 100%; /* Make the image take the full width of the container */
+    height: 100%; /* Make the image take the full height of the container */
+    margin: 1% auto; /* Center the image horizontally */
+  }
+  
+  .story h2 {
+    position: absolute;
+    color: white;
+    font-family: CalligraphyFLF;
+    font-size: 4vw;
+    text-transform: capitalize;
+    filter: drop-shadow(3px 3px 9px goldenrod);
+    top: 104%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the element relative to its own size */
+  }
+
+  .cat{
+    box-shadow: none !important;
+    filter: none !important;
+    width:30vw !important;
+    height: 5vw !important;
+margin-top: -4% !important;
+  }
+  .lion{
+    margin-top: 15% ;
+margin-bottom: 6%;
+    background-image: url("9213.jpg");
+    width: cover;
+    background-size: cover;
+    height: 50vw;
+    
+    background-position: center;
+  }
+  .story >h1{
+margin-top: 15%;
+filter: drop-shadow(1px 1px 3px goldenrod);
+font-weight: 500;
+    font-family: 'Cinzel-Regular';
+    color: goldenrod;
+font-size: 5.5vw;
+word-spacing:6px;
+letter-spacing: -2px;
+}
+  .left>img{
+margin: 15% 5%;
+    width: 60%;
+    border: 4px solid rgb(11, 11, 124);
+    height: 40vw;
+  }
+  .pet{
+    width: 50%;
+    float: left;
+  }
+  .left{
+    float:right;
+    width:50%;
+    text-align: center;
+  }
+  .pet >p{
+    text-align: center;
+    
+    word-spacing: 2px;
+margin: 1% 8%;
+    letter-spacing: -.4px;
+    line-height: 1;background: rgb(255,238,70);
+    background: linear-gradient(90deg, rgba(255,238,70,1) 0%, rgba(254,236,117,0.6951155462184874) 0%, rgba(242,230,46,0.9808298319327731) 100%);
+    border: 1px solid goldenrod;
+    padding: 4.5%;
+    margin-top:3%;
+    color: rgb(14, 14, 110);
+    
+     font-family: 'CalligraphyFLF';
+    
+     font-size: 2vw;
+
+    font-weight: 500;
+  }
+  .promoters{
+    margin-top: 10%;
+    background: linear-gradient(180deg,rgb(9, 21, 114),rgb(4, 10, 49));
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 240vh;
+    
+
+  }
+  .cupps >h4{
+    text-align: center;
+    font-family: CalligraphyFLF;
+    color: white;
+    font-size:3vw;
+    filter: drop-shadow(.5px .5px 1.5px goldenrod);
+  }
+  .poriki{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+text-align: center;
+  }
+  .poriki >h2{
+    font-size: 4vw;
+filter: drop-shadow(.5px .5px 1.5px goldenrod);
+font-weight: 500;
+    font-family: 'Cinzel-Regular';
+    color: goldenrod;
+
+  }
+  .cupps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .kinder{
+    width: 350;
+    height: 350px;
+    
+  }
+  @media screen and (max-width:762px){
+    .kinder{
+        width: 150px;
+        height: 150px;
+    }
+  }
+  .sari{
+    width: 20vw;
+    height: 3vw;
+  }
+  .team{
+    margin: 3% 5%;
+    text-align: center;
+  }
+  .team >p{
+    
+    font-family: 'Cinzel-Regular';
+    font-weight:bolder;
+   
+    color: black;
+    font-size: 1.1vw;
+    background:linear-gradient(90deg,white,rgb(244, 212, 132));
+    filter: drop-shadow(1px 1px 3px rgb(8, 8, 72));
+    
+    -webkit-background-clip: text;
+
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+  }
+  .footer{
+    
+    background-image: url("poly1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 25vh;
+  filter: brightness(85%);  
+  border-top: 2px solid goldenrod;
+  }
+  li{
+    list-style-type: none;
+    color: goldenrod;
+ font-family: 'Cinzel-Regular';
+ letter-spacing: 2px;
+font-size: .8vw;
+cursor: pointer;
+line-height: 30px;
+font-weight: 600;
+    filter: brightness(120%);    
+  }
+  li:hover{
+    color: white;
+    transition: 1s;
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+color: goldenrod;
+gap: 3vw;
+cursor: pointer;
+  }
+  .social svg:hover{
+color: white;
+transition: 1s;
+  }
+  @media screen and (max-width:762px) {
+    .social svg{
+        height: 7px;
+        width: 7px;
+    }
+    
+  }

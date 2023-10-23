@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: 'Cinzel-Regular';
+    src: url(fonts/Cinzel-Regular.ttf) format("truetype");
+}
+.form-error{
+    color:red;
+    font-size: 12px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: -25px;
+}
+.form-error1{
+    color:red;
+    font-size: 12px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: -2px;
+}
+.karma{
+    width: 12vw;
+
+    margin-top:-3.5% ;
+    margin-bottom: 5%;
+    height: auto;
+}
+.power{
+    padding-top: 5%;
+}
+.carnage{
+    color: white!important;
+    filter: drop-shadow(1px 1px 3px goldenrod);
+    font-family: 'Cinzel-Regular';
+    
+}
+.car{
+
+    font-family: "CalligraphyFLF";
+    font-size:20px;
+    border:2px solid goldenrod;
+    padding:6px 10px;
+    color:goldenrod;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+}
+.car:hover{
+transition: 0.7s;
+color: white;
+background-color: goldenrod;
+}
+.pick{
+    background-image: url("poly1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 125vh;
+    
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+.form-control{
+    
+    font-family: "CalligraphyFLF";
+    font-weight: 600 I !important;
+    font-size: 23px !important;
+ width: 40vw !important;
+ 
+}
+form{
+    border: none !important;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+
+
+}

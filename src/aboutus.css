@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Cinzel-Regular';
+    src: url(fonts/Cinzel-Regular.ttf) format("truetype");
+}
+@font-face{
+    font-family:'PlayfairDisplay-Regular';
+    src: url(fonts/PlayfairDisplay-Regular.ttf) format("truetype");
+
+}
+.love{
+    background-image: url("vimg.png");
+    background-size: cover;
+    height: 60vw;
+    
+position: relative;
+}
+.opppo >img{
+    width: 30vw;
+    height: 4vw;
+}
+.irish{
+    margin-top: 5%;
+}
+.opppo >p{
+    font-family: 'CalligraphyFLF';
+    margin: 0 3%;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 500;
+    letter-spacing: .4px;
+    word-spacing: 2px;
+    color: rgb(14, 14, 110);
+    line-height: 1.5;
+
+}
+.lorry{
+    text-decoration: none;
+    border:2px solid goldenrod;
+    padding:5px 15px !important;
+   font-size: 2vw;
+    color: goldenrod;
+    margin-top: 3%;
+z-index: 100;
+    cursor: pointer;
+    font-family: CalligraphyFLF;
+    font-weight: 600;
+    
+    
+  }
+  .lorry:hover{
+    background-color: goldenrod;
+    color: white;
+    transition: .5s;
+    border: 2px solid goldenrod;
+  }
+
+  .love::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 100px rgb(246, 234, 3);
+  }
+  
+  .love::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+.opppo{
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+    margin-left: 3%;
+    margin-top: 6%;
+    align-items: center;
+    font-family: 'Cinzel-Regular';
+    
+}
+.opppo > h1 {
+    position: relative;
+    font-size: 6vw;
+    color: gold;
+    -webkit-text-stroke: 0.3vw goldrod;
+    text-transform: uppercase;
+    filter: drop-shadow(2px 2px 6px rgb(10, 10, 109));
+    overflow: hidden; /* Hide overflowing text */
+  }
+  
+  .opppo > h1::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: rgba(12, 4, 87, 0.986);
+    -webkit-text-stroke: 0vw goldenrod;
+    border-right: 2px solid  rgba(12, 4, 87, 0.986);
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+  }
+  
+  @keyframes animate {
+    0%,10%,100% {
+      width: 0;
+       /* Start with transparent text */
+    }
+    70%,90% {
+      width: 100%;
+      
+    }
+  }
+.opppo >span{
+    z-index: 100;
+}
+
+
+
+
+  
