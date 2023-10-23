@@ -51,6 +51,7 @@ background: linear-gradient(180deg,rgb(9, 21, 114),rgb(4, 10, 49));
 .nav-link{
   font-family: CalligraphyFLF;
   font-size: 25px;
+  
   filter: drop-shadow(.2px .2px .4px black);
   color:goldenrod !important;
 }
@@ -60,6 +61,10 @@ background: linear-gradient(180deg,rgb(9, 21, 114),rgb(4, 10, 49));
   border: .3px;
  
 }
+.navbar-nav a{
+  text-decoration: none !important;
+}
+
 .brand >img{
   display:block;
   margin-top: -7%;

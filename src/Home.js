@@ -205,10 +205,10 @@ We benefit new businesses. We benefit from office cooking and local gatherings.
                     <li>Email : admin@healthyfoodindia.com</li>
 
                 </ul>
-                <div className='sicial'>                <GrInstagram size={14}/>
-                <BiLogoFacebookSquare size={14} />
-                <ImWhatsapp size={14}/>
-                <AiOutlineMail size={14} />
+                <div className='sicial'>                <GrInstagram id="pakka"  size={14}/>
+                <BiLogoFacebookSquare id="pakka" size={14} />
+                <ImWhatsapp id="pakka"  size={14}/>
+                <AiOutlineMail  id="pakka"  size={14} />
                 </div>
 
             </div>

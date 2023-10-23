@@ -49,7 +49,7 @@ margin-bottom: 6%;
     background-image: url("9213.jpg");
     width: cover;
     background-size: cover;
-    height: 50vw;
+    height: 80vh;
     
     background-position: center;
   }
@@ -147,6 +147,28 @@ font-weight: 500;
         height: 150px;
     }
   }
+  @media screen and (max-width:412px){
+    .pet >p{
+        font-size: 15px !important;
+    }
+    .left img{
+        margin: 140% 20%;
+    }
+    .sari{
+        width: 170px !important;
+        height: auto  !important;
+    }
+    .poriki h2{
+        font-size: 28px !important;
+    }
+    .cupps h4{
+        font-size: 20px !important;
+
+    }
+    .team >p{
+        font-size: 15px !important;
+    }
+  }
   .sari{
     width: 20vw;
     height: 3vw;
@@ -210,10 +232,17 @@ cursor: pointer;
 color: white;
 transition: 1s;
   }
-  @media screen and (max-width:762px) {
+  
+  @media screen and (max-width:412px) {
     .social svg{
-        height: 7px;
-        width: 7px;
+        height: 13px !important;
+        width: 13px !important;
     }
-    
+    li{
+      font-size: 13px !important;
+    }
+    .cat{
+        width: 120px !important;
+        height: auto !important;
+    }
   }

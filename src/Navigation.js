@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./navigation.css";
 import lottery from "./foodlogo2.png"
+import { Link } from 'react-router-dom';
 
 function Navigation() {
 
@@ -40,9 +41,9 @@ function Navigation() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link active" href="/">Home</a>
+       <Link to="/">       <a className="nav-link active" >Home</a></Link>
               <a className="nav-link active" href="">Menu</a>
-              <a className="nav-link active" href="/about">AboutUs</a>
+          <Link to="/about">    <a className="nav-link active" >AboutUs</a></Link>
            
               <a className="nav-link active" href="#page1">Services</a>
               <a className="nav-link active" href="#contactus">ContactUs</a>

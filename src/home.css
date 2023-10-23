@@ -76,6 +76,24 @@ font-weight: 600;
      font-weight: 600;
 
   }
+  @media screen and (max-width:412px) {
+    .contain h3{
+      font-size: 40px !important;
+    }
+    .contain p{
+      font-size: 20px !important;
+
+    }
+    .what>h2{
+      font-size: 25px !important;
+    }
+    .ott{
+      font-size: 20px !important;
+    }
+    li{
+      font-size: 13px !important;
+    }
+  }
     .contain h3{
     font-family: 'Cinzel-Regular';
     font-weight:bolder;
@@ -142,12 +160,3 @@ cursor: pointer;
 color: white;
 transition: 1s;
 }
-@media screen and (max-width:762px) {
-  .sicial svg{
-      height: 7px;
-      width: 7px;
-  }
-  
-}
-
-  

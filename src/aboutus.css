@@ -7,10 +7,35 @@
     src: url(fonts/PlayfairDisplay-Regular.ttf) format("truetype");
 
 }
+@media screen and (max-width:412px) {
+    .opppo{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+    .opppo p{
+font-size: 20px !important;
+    }
+    .opppo img{
+        width: 200px !important;
+        height: auto !important;
+    }
+    .opppo h1 {
+        font-size: 40px !important;
+    }
+    .lorry{
+        font-size: 20px !important;
+    }
+    .karma{
+        width: 130px  !important;
+    }
+}
 .love{
     background-image: url("vimg.png");
     background-size: cover;
-    height: 60vw;
+    height: 100vh;
     
 position: relative;
 }
