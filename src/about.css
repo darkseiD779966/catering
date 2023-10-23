@@ -49,7 +49,7 @@ margin-bottom: 6%;
     background-image: url("9213.jpg");
     width: cover;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     
     background-position: center;
   }
@@ -101,8 +101,8 @@ margin: 1% 8%;
     margin-top: 10%;
     background: linear-gradient(180deg,rgb(9, 21, 114),rgb(4, 10, 49));
     background-size: cover;
-    min-height: 100vh;
-    max-height: 240vh;
+    height: 105vh;
+    
     
 
   }
@@ -152,7 +152,7 @@ font-weight: 500;
         font-size: 15px !important;
     }
     .left img{
-        margin: 140% 20%;
+        margin: 160% 20%;
     }
     .sari{
         width: 170px !important;
@@ -245,4 +245,8 @@ transition: 1s;
         width: 120px !important;
         height: auto !important;
     }
+    .promoters{
+        height: 130vh !important;
+    }
   }
+
