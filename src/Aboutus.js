@@ -1,6 +1,6 @@
 import React from 'react'
 import "./aboutus.css";
-import { Link, NavLink } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 function Aboutus() {
   return (
     <section id="aboutus">
@@ -15,7 +15,7 @@ Started with a bunch of eatery and cooking accomplices in Hyderabad. As our admi
 We benefit new businesses. We benefit from office cooking and local gatherings.
 </p>
 <div className='irish'>
-   <NavLink to="/about"> <span  className='lorry'>read more...</span></NavLink>
+   <Link to="/about"> <span  className='lorry'>read more...</span></Link>
 </div>
 
         </div>

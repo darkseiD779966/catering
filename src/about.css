@@ -147,12 +147,35 @@ font-weight: 500;
         height: 150px;
     }
   }
-  @media screen and (max-width:412px){
+  @media screen and (max-width:300px){
     .pet >p{
         font-size: 15px !important;
     }
     .left img{
-        margin: 220% 20%;
+        margin: 160% 20%;
+    }
+    .sari{
+        width: 170px !important;
+        height: auto  !important;
+    }
+    .poriki h2{
+        font-size: 28px !important;
+    }
+    .cupps h4{
+        font-size: 20px !important;
+
+    }
+    .team >p{
+        font-size: 15px !important;
+    }
+  }
+  
+  @media screen and (max-width:500px){
+    .pet >p{
+        font-size: 15px !important;
+    }
+    .left img{
+        margin: 100% 20%;
     }
     .sari{
         width: 170px !important;
@@ -233,7 +256,7 @@ color: white;
 transition: 1s;
   }
   
-  @media screen and (max-width:412px) {
+  @media screen and (max-width:300px) {
     .social svg{
         height: 13px !important;
         width: 13px !important;
@@ -250,6 +273,27 @@ transition: 1s;
     }
     .lion{
         height: 180vh!important;
+    }
+  }
+
+
+  @media screen and (max-width:500px) {
+    .social svg{
+        height: 13px !important;
+        width: 13px !important;
+    }
+    li{
+      font-size: 13px !important;
+    }
+    .cat{
+        width: 120px !important;
+        height: auto !important;
+    }
+    .promoters{
+        height: 120vh !important;
+    }
+    .lion{
+        height: 110vh!important;
     }
   }
 

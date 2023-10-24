@@ -7,6 +7,7 @@ import Home from './Home';
 import Navigation from './Navigation';
 import Page1 from './Page1';
 import About from "./About";
+import Menu from "./Menu";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
      <Routes>
      <Route path="/" element={<Home />} />
      <Route path="/about" element={<About />} />
+     <Route path="menu"  element={<Menu />} />
      </Routes>
     
     </div>

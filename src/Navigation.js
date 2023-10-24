@@ -42,7 +42,7 @@ function Navigation() {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
        <Link to="/">       <a className="nav-link active" >Home</a></Link>
-              <a className="nav-link active" href="">Menu</a>
+       <Link to="/menu"> <a className="nav-link active" href="">Menu</a></Link>
           <Link to="/about">    <a className="nav-link active" >AboutUs</a></Link>
            
               <a className="nav-link active" href="#page1">Services</a>

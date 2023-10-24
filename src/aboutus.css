@@ -16,7 +16,19 @@
         text-align: center;
     }
     .love{
-        height: 180vh !important;
+        height: 150vh !important;
+    }
+}
+@media screen and (max-width:500px) {
+    .opppo{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+    .love{
+        height: 120vh !important;
     }
     .opppo p{
 font-size: 20px !important;

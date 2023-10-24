@@ -1,0 +1,211 @@
+.menubg{
+    background-image: url("menubg.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 280vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    filter: brightness(110%);
+}
+.poor{
+    width: 25vw;
+    height: auto;
+}
+.ven{
+    
+    word-spacing: 2px;
+margin: 1% 4%;
+    letter-spacing: -.4px;
+    line-height: 1;background: rgb(255,238,70);
+    background: linear-gradient(90deg, rgba(255,238,70,1) 0%, rgba(254,236,117,0.6951155462184874) 0%, rgba(242,230,46,0.9808298319327731) 100%);
+    border: 1px solid goldenrod;
+    padding: 1%;
+    margin-top: 20px;
+    color: rgb(14, 14, 110);
+    
+     font-family: 'CalligraphyFLF';
+    
+     font-size: 2vw;
+
+    font-weight: 500;
+}
+.mmenu{
+    margin: 3% 0;
+}
+.menu h1{
+ 
+filter: drop-shadow(1px 1px 3px goldenrod);
+font-weight: 500;
+    font-family: 'Cinzel-Regular';
+    color: goldenrod;
+font-size: 5vw;
+word-spacing:6px;
+letter-spacing: -2px;   
+}
+.bri {
+    margin: 5% 0;
+    box-shadow: 10px 10px 20px gray;
+    width: 40vw;
+    height: auto;
+}
+.Arrangements{
+    background: rgba(8, 8, 68, 0.87);
+
+}
+
+.opress{
+    margin: 5%;
+    width: 40%;
+    float: left;
+
+}
+.opress h2{
+    font-family: CalligraphyFLF;
+    color: goldenrod;
+    border-bottom: 2px solid goldenrod;
+    margin-top: -7%;
+    margin-bottom: 5%;
+}
+.depress{
+    width: 40%;
+    margin: 5%;
+    float: right;
+}
+.depress >img{
+    width: 25vw;
+border: 2px solid goldenrod;
+    height: auto;
+}
+.ice{
+    
+    font-family: 'Cinzel-Regular';
+    font-weight:bolder;
+   
+    color: black;
+    letter-spacing: -2px;
+    background:linear-gradient(90deg,white,rgb(244, 212, 132));
+    filter: drop-shadow(1px 1px 3px rgb(8, 8, 72));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:2vw;
+    word-spacing: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.marquee{
+    
+    word-spacing: 2px;
+margin: 1% 4%;
+    letter-spacing: -.4px;
+    line-height: 1;background: rgb(255,238,70);
+    background: linear-gradient(90deg, rgba(255,238,70,1) 0%, rgba(254,236,117,0.6951155462184874) 0%, rgba(242,230,46,0.9808298319327731) 100%);
+    border: 3px solid goldenrod;
+    padding: 1%;
+    margin-top: 20px;
+    color: rgb(14, 14, 110);
+    
+     font-family: 'CalligraphyFLF';
+    
+     font-size: 2vw;
+
+    font-weight: 500;
+    width: 60vw;
+    
+
+    
+}
+.key{
+    margin:5%;
+}
+.key >h3{
+    
+filter: drop-shadow(1px 1px 3px goldenrod);
+font-weight: 600;
+    font-family: 'Cinzel-Regular';
+    color: rgb(15, 15, 82);
+font-size: 3vw;
+word-spacing:6px;
+letter-spacing: -2px;   
+
+}
+.roop{
+    filter: drop-shadow(1px 1px 3px black);
+    width: 23vw;
+    height: auto;
+}
+.feeter{
+    
+    background-image: url("poly1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 4% 0; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+  filter: brightness(85%);  
+  border-top: 2px solid goldenrod;
+  }
+  li{
+    list-style-type: none;
+    color: goldenrod;
+ font-family: 'Cinzel-Regular';
+ letter-spacing: 2px;
+font-size: .8vw;
+cursor: pointer;
+line-height: 30px;
+font-weight: 600;
+    filter: brightness(120%);    
+  }
+  li:hover{
+    color: white;
+    transition: 1s;
+  }
+  .scial{
+    display: flex;
+    flex-direction: row;
+color: goldenrod;
+gap: 3vw;
+cursor: pointer;
+  }
+  .scial svg:hover{
+color: white;
+transition: 1s;
+  }
+@media screen and (max-width:500px){
+    .ven{
+        font-size: 15px ;
+    }
+    .bri{
+        width: 200px !important;
+        height: auto !important;
+    }
+    .menubg{
+        height: 177vh !important;
+    }
+    .ice{
+        font-size: 18px !important;
+        word-spacing: 2px !important;
+    }
+    .depress>img{
+        width: 100px !important;
+        height: auto !important;
+    }
+    .key >h3{
+        font-size: 20px !important;
+    }
+    .roop{
+        width: 100px !important;
+        height: auto !important;
+    }
+    .marquee{
+        font-size: 15px !important;
+        width: 200px !important;
+    }
+}
