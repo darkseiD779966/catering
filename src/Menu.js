@@ -11,6 +11,7 @@ function Menu() {
     $(".container").toggleClass("microsoft");
 });
   return (
+    <div>
     <div className='menubg'>
         <div className='menu'><h1> OUR MENU</h1>
         <img className="poor" src="images/dddd.png" alt="" />
@@ -29,6 +30,7 @@ A wide range of exotic dishes and drinks
 <div className='depress'>
   <img src='/images/close.jpg' />
 </div>
+        </div>
         </div>
         <div className='key'>
         <img className="roop" src="images/dd.png" alt="" />

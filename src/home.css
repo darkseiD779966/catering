@@ -31,7 +31,7 @@ font-weight: 600;
     border: 2px solid goldenrod;
   }
   .cont::before {
-    filter: brightness(70%);
+    filter: brightness(115%);
     content: "";
     background-image: url("back.jpg");
     background-size: cover;

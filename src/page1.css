@@ -21,6 +21,7 @@ margin-right: 0px;
   }
   
     .row{
+    
 margin-left: 0!important;
 margin-right: 0  !important;      
     }
@@ -88,7 +89,7 @@ filter: drop-shadow(.5px .5px 1px rgb(3, 3, 72));
 
     font-family: 'CalligraphyFLF';
     
-    top: 33.5%;
+    top: 31.5%;
     transform: translateY(-50%); /* Vertically center the h4 */
      /* Ensure the width is 100% within the card */
     opacity: 0; /* Initially hide the h4 element */
